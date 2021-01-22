@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="browserName">chrome</entry>
+    <entry key="pageLoadTimeout">10</entry>
+    <entry key="explicitTimeout">10</entry>
+</properties>
