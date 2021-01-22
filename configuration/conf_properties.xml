@@ -3,4 +3,5 @@
 <properties>
     <entry key="webUrl">http://аптека64плюс.рф</entry>
     <entry key="loginErrorMessage">Проверьте правильность введенных данных либо зарегистрируйтесь</entry>
+    <entry key="driverPath">C:\webdrivers\</entry>
 </properties>
