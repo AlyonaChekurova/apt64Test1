@@ -27,11 +27,11 @@ public final class DriverFactory {
     private static void trySetDriverPath(final String browserName)
             throws IOException {
         String driverPath = ParametersProvider.getProperty("driverPath");
-        if (browserName.equals("chrome"))
+        /*if (browserName.equals("chrome"))
             driverPath += "chromedriver.exe";
 
         if (browserName.equals("firefox"))
-            driverPath += "geckodriver.exe";
+            driverPath += "geckodriver.exe";*/
 
         if (!driverPath.isEmpty()) {
             System.setProperty("webdriver." + browserName + ".driver", driverPath);
